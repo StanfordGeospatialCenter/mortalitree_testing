@@ -1,0 +1,5 @@
+"name","tile_url",""
+"osm_standard","https://tile.openstreetmap.org/{z}/{x}/{y}.png",""
+"stamen_toner","https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}.png",""
+"stamen_watercolor","https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.jpg",""
+"gee_naip_2017","https://earthengine.googleapis.com/v1/projects/mygee-project-01/maps/7d4e23070ef5637dc5c87accbbc45ac8-038e21e91fe1d9f751b85d0f16f2988f/tiles/{z}/{x}/{y}",""
