@@ -17,9 +17,9 @@ mortalitree_testing/
 
 | Notebook | Description |
 |----------|-------------|
-| [get_tile_urls.ipynb](notebooks/get_tile_urls.ipynb) | Uses **Google Earth Engine** to mosaic NAIP imagery for each available year over an AOI, then generates XYZ tile service URLs (RGB and IR) and exports them to CSV. |
-| [get_tiles.ipynb](notebooks/get_tiles.ipynb) | Reads a CSV of tile service URLs and a GeoJSON AOI, computes the set of XYZ tiles at a given zoom level, then **downloads tile images in parallel** with retry logic, saving them as `.jpg` in a `z/x/y` folder structure. |
-| [tile_grid_generator.ipynb](notebooks/tile_grid_generator.ipynb) | Generates a grid of **Web Mercator tile boundary polygons** at a specified zoom level that intersect an AOI. Exports tile metadata (ZXY values, centroids, corners) as GeoJSON or CSV (WKT). Includes an interactive [leafmap](https://leafmap.org/) preview of random tiles. |
+| [Step_01_get_tile_urls.ipynb](notebooks/Step_01_get_tile_urls.ipynb) | Uses **Google Earth Engine** to mosaic NAIP imagery for each available year over an AOI, then generates XYZ tile service URLs (RGB and IR) and exports them to CSV. (5 sections) |
+| [Step_02_get_tiles.ipynb](notebooks/Step_02_get_tiles.ipynb) | Reads a CSV of tile service URLs and a GeoJSON AOI, computes the set of XYZ tiles at a given zoom level, then **downloads tile images in parallel** with retry logic, saving them as `.jpg` in a `z/x/y` folder structure. (12 sections) |
+| [Step_03_tile_grid_generator.ipynb](notebooks/Step_03_tile_grid_generator.ipynb) | Generates a grid of **Web Mercator tile boundary polygons** at a specified zoom level that intersect an AOI. Exports tile metadata (ZXY values, centroids, corners) as GeoJSON or CSV (WKT). Includes an interactive [leafmap](https://leafmap.org/) preview of random tiles. (9 sections) |
 
 ## Data
 
